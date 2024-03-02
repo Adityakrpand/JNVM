@@ -1,49 +1,43 @@
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        } 
-        header {
-            background-color: #003366;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav {
-            background-color: #007bff;
-            text-align: center;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-        nav a#currentpage {
-            background-color: rgb(1, 11, 16);
-            
-        } 
-        section {
-            margin: 0px;
-        }
-        
-        #logo{
-            position: absolute;
-            top: 0;
-            left: 0;
-            
-            
-        }
-        #sw{
-            position: absolute;
-            top: 0;
-            right: 0;
-        }
-        footer{
-            background-color: #003366;
-            color: #fff;
-            padding: 10px 0;
-            text-align: left;
-            width: 100%;
-            
-        }
-        
+body{
+    font-family: Arial,sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: rgb(223, 230, 240);
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+nav{
+    background-color: rgb(163, 233, 233);
+    text-align: center;
+}
+nav a {
+    color: rgb(79, 69, 69);
+    text-decoration: none;
+    margin: 0 60px;
+}
+section{
+    margin: 0px;
+}
+#logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#sw{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+footer{
+    background-color: aquamarine;
+    color: antiquewhite;
+    padding: 10px 0;
+    text-align: left;
+    width: 100%;
+}
+nav a#currentpage{
+    background-color: rgb(159, 71, 71);
+}
